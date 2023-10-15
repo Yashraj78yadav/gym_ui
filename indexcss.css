@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: grey;
+
+}
+
+body {
+    background: url(training-828741_1920.jpg);
+}
+
+.left {
+    /* border: green solid 2px; */
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 17px
+}
+.left img{
+    width:101px;
+}
+.left div{
+    
+    text-transform: capitalize;
+    position: absolute;
+    top: 77px;
+    left:0px;
+    width:20%;
+    color: black;
+    padding: 3px;
+}
+.mid {
+    /* border: yellow solid 2px; */
+    display: block;
+    width: 66%;
+    margin: 9px auto;
+    /* background: none; */
+
+}
+
+.ulhead {
+    display: inline-block;
+
+
+}
+
+.ulhead li {
+    display: inline-block;
+    padding: 19px;
+    font-size: 25px;
+}
+
+.ulhead li a {
+    text-decoration: none;
+}
+
+.ulhead li a:hover,
+.ulhead li a.active {
+    color: rgb(67, 22, 22);
+    text-decoration: underline;
+
+
+}
+
+.right {
+    /* border: blue solid 2px; */
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    right: 17px
+}
+.right button{
+    width: 96px;
+    padding: 8px;
+    margin: 3px 5px;
+    font-size: 17px;
+    border-radius: 10px;
+    color: black;
+}
+.right button:hover{
+    background-color: rgb(119, 160, 119);
+    color: black;
+}
+.container{
+    border: rgb(117, 116, 116) solid 3px;
+    border-radius: 10px;
+    position:absolute;
+    top: 225px;
+    left: 120px;
+    padding: 50px;
+}
+.container h2{
+    text-align: center;
+    font-size:40px ;
+    text-transform: capitalize;
+    color: grey;
+}
+.form input{
+ color: white;
+ padding: 5px;
+ line-height: 19px;
+ margin: 2px 9px;
+ width: 561px;
+ border-radius: 12px;
+ font-size: 25px;
+ background-color: rgb(41, 38, 38);
+ 
+}
+.form input:hover{
+    background-color: rgb(67, 22, 22);  
+}
+.container:hover{
+   background-color: rgb(29, 37, 37);
+}
+.button1{
+    width: 334px;
+    color: grey;
+    padding: 6px;
+    line-height: 21px;
+    margin: 16px 116px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(41, 38, 38);
+}
+.button1:hover{
+    background-color: rgb(119, 160, 119);
+    color: rgb(31, 30, 30);
+}
