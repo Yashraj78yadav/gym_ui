@@ -17,17 +17,21 @@ body {
     left: 17px
 }
 .left img{
-    width:101px;
+    width:99px;
 }
 .left div{
     
     text-transform: capitalize;
     position: absolute;
-    top: 77px;
+    /* display: block; */
+    top: 78px;
     left:0px;
-    width:20%;
+    /* width:30%; */
     color: black;
-    padding: 3px;
+    padding: 1px;
+}
+.leftdiv{
+    width: 111%;
 }
 .mid {
     /* border: yellow solid 2px; */
@@ -40,8 +44,6 @@ body {
 
 .ulhead {
     display: inline-block;
-
-
 }
 
 .ulhead li {
